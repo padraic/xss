@@ -9,7 +9,7 @@ $output = htmlspecialchars($input);
 ?>
 <html>
 <head>
-    <title>Single Quoted Attribute</title>
+    <title>Single Quoted Attribute - Fixed #1</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 <body>
