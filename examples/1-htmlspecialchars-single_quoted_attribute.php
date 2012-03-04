@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <?php
-
 $input = <<<INPUT
 ' onmouseover='alert(/Meow!/);
 INPUT;
+/**
+ * NOTE: This is equivalent to using htmlspecialchars($input, ENT_COMPAT)
+ */
 $output = htmlspecialchars($input);
-
 ?>
 <html>
 <head>

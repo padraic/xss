@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <?php
-
 $input = <<<INPUT
 faketitle onmouseover=alert(/Meow!/);
 INPUT;
 $output = htmlspecialchars($input, ENT_QUOTES);
-
 ?>
 <html>
 <head>

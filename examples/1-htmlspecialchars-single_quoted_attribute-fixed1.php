@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <?php
-
 $input = <<<INPUT
 ' onmouseover='alert(/Meow!/);
 INPUT;
 $output = htmlspecialchars($input);
-
 ?>
 <html>
 <head>
