@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <?php
+/**
+ * You could also subsititute \xC0 or any other impacted character
+ * above ASCII number 192
+ */
 $input1 = 'fakeimage'.chr(192);
 $input2 = <<<INPUT2
 onerror=alert(/Meow!/)//
