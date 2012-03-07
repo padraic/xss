@@ -13,7 +13,7 @@ $output = htmlspecialchars($input);
 </head>
 <body>
     <div>
-        <span title="<?= $output ?>">What's that latin placeholder text again?</span>
+        <span title="<?php echo $output ?>">What's that latin placeholder text again?</span>
     </div>
 </body>
 </html>

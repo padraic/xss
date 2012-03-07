@@ -26,8 +26,8 @@ $output2 = htmlspecialchars($input2, ENT_QUOTES, $encoding);
 </head>
 <body>
     <div>
-        <img src="http://example.com/images/<?= $output1 ?>"
-        title="<?= $output2 ?>">
+        <img src="http://example.com/images/<?php echo $output1 ?>"
+        title="<?php echo $output2 ?>">
     </div>
 </body>
 </html>

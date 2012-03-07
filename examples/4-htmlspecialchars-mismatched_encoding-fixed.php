@@ -13,14 +13,15 @@ header('Content-Type: text/html; charset='.trim($output1));
 <html>
 <head>
     <title>Mismatched Encoding</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=<?= $output1 ?>">
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=<?php echo $output1 ?>">
 </head>
 <body>
     <div>
         <strong style="font-size: 20em;">I lied, there is no fix!
         Filter your input and only allow charsets from a whitelist
         that does NOT include UTF-7.</strong>
-        <?= $output2 ?>
+        <?php echo $output2 ?>
     </div>
 </body>
 </html>

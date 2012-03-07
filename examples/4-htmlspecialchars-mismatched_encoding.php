@@ -13,11 +13,12 @@ header('Content-Type: text/html; charset='.trim($output1));
 <html>
 <head>
     <title>Mismatched Encoding</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=<?= $output1 ?>">
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=<?php echo $output1 ?>">
 </head>
 <body>
     <div>
-        <?= $output2 ?>
+        <?php echo $output2 ?>
     </div>
 </body>
 </html>
