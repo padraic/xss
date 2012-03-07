@@ -16,7 +16,7 @@ $output2 = htmlspecialchars($input2, ENT_QUOTES, $encoding);
 ?>
 <html>
 <head>
-    <title>Swallowed Quotes</title>
+    <title>htmlspecialchars() $encoding parameter value</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 <body>

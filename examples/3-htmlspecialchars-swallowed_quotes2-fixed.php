@@ -10,7 +10,7 @@ $output2 = htmlspecialchars($input2, ENT_QUOTES, 'UTF-8');
 ?>
 <html>
 <head>
-    <title>Swallowed Quotes</title>
+    <title>Swallowed Quotes #2</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 <body>
