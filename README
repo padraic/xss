@@ -1,3 +1,5 @@
 A Hitchhiker's Guide to Cross-Site Scripting (XSS)
 
 Don't look at me, it was the Dolphins' fault...
+
+Part 1: [How Not To Use Htmlspecialchars() For Output Escaping](http://blog.astrumfutura.com/2012/03/a-hitchhikers-guide-to-cross-site-scripting-xss-in-php-part-1-how-not-to-use-htmlspecialchars-for-output-escaping)
